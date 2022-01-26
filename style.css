@@ -1,9 +1,11 @@
 body {
     margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
-img {
-    height: 250px;
+.seagull {
+    height: 350px;
 }
 
 .header {
@@ -63,8 +65,8 @@ button {
     border-radius: 7px;
     color: white;
     font-size: 20px;
-    border: none;
     text-align: center;
+    padding: 12px;
 }
 
 .third {
@@ -82,4 +84,109 @@ h3 {
 .img-with-text {
     display: flex;
     justify-content: center;
+    gap: 55px;
+    align-items: center;
+}
+
+.info-img1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 0;
+    height: 300px;
+    width: 200px;
+}
+
+.info-img2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 0;
+    height: 300px;
+    width: 200px;
+}
+
+.info-img3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 0;
+    height: 300px;
+    width: 200px;
+}
+
+.info-img4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 0;
+    height: 300px;
+    width: 200px;
+}
+
+.text-under {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.fourth {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 300px;
+    padding-bottom: 150px;
+    padding-top: 36px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.signature {
+    text-align: right;
+}
+
+.fifth {
+    padding: 5px 300px;
+    padding-bottom: 150px;
+    padding-top: 36px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 10px 100px;
+    border-radius: 7px;
+    height: 200px;
+}
+
+#second-button {
+    border: white;
+    border-style: solid;
+}
+
+.text .bold-text {
+    font-weight: 700;
+    font-size: 36px;
+    color: #f9faf8;
+    padding-bottom: 10px;
+}
+
+.text .text-under-bold {
+    color: #e5e7eb;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color: #1F2937;
+    color: #e5e7eb;
 }
